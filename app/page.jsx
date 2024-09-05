@@ -1,5 +1,6 @@
  import Photo from '@/components/Photo'
 import Social from '@/components/Social'
+import Stats from '@/components/Stats'
 import { Button } from '@/components/ui/button'
 import { FileDownIcon, Phone } from 'lucide-react'
 import React from 'react'
@@ -33,6 +34,7 @@ import React from 'react'
             </div>
           </div>
       </div>
+      <Stats/>
      </section>
    )
  }
